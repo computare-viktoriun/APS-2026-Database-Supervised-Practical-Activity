@@ -61,8 +61,66 @@ Implementar um projeto completo de banco de dados, de acordo com o tema sorteado
 
 ---
 
+
+# 📃 **ACTIVITY DESCRIPTION:**
+
+Implement a complete database project, according to the assigned theme, with the following requirements:
+
+**1. Conceptual Modeling:** Analyze the theme and define the initial business rules. This is the abstraction phase, focused on understanding "what" the system does.
+
+- Deliverables:
+
+■ Mini-world writing (narrative document describing the operation and rules of the scenario).
+
+■ Complete Entity-Relationship Diagram, with clearly defined entities, main attributes, and cardinalities.
+
+---
+
+**2. Logical Modeling:** Translate the conceptual model (ERD) developed in step 1 into a relational model, ensuring that the database will not have harmful redundancies.
+
+- Deliverables:
+
+■ Complete Relational Schema/Diagram.
+
+■ Application of normalization rules (guaranteeing at least 3NF).
+
+■ Clear definition of primary keys (PK) and foreign keys (FK).
+
+--
+
+**3. Physical Modeling and DDL:** Take the logical model developed in step 2 and write the actual code to create the structure in the DBMS.
+
+- Deliverables:
+
+■ Structured SQL script with the strategic and optimized definition of data types and implementation of constraints (NOT NULL, UNIQUE, PRIMARY KEY, and FOREIGN KEY).
 **6. Geração de Relatórios Avançados:** Extrair inteligência avançada dos dados e encapsular regras complexas.
 
 - Entregáveis:
     
     ■ Scripts SQL com 5 consultas de alta complexidade contendo agrupamentos (GROUP BY), filtros sobre grupos (HAVING) e funções de agregação (COUNT, SUM, AVG, MAX, MIN).
+
+---
+
+**4. Database Population and DML:** Bring the empty structure created in Step 3 to life, generating realistic and massive data that allows for testing and reporting.
+
+- Deliverables
+
+■ SQL insertion scripts for all tables, with 15 or more records, respecting referential integrity during insertion.
+
+---
+
+**5. Simple Report Generation:** Query the populated database from Step 4 to answer real business questions and prove that the model supports day-to-day operations.
+
+- Deliverables:
+
+■ SQL scripts with 10 queries based on practical scenarios described in the mini-world.
+
+■ The queries must have intermediate complexity, necessarily including: INNER JOIN, LEFT JOIN/RIGHT JOIN, WHERE with multiple operators (logical and relational), and ORDER BY.
+
+---
+
+**6. Advanced Reporting:** Extract advanced intelligence from data and encapsulate complex rules.
+
+- Deliverables:
+
+■ SQL scripts with 5 highly complex queries containing groupings (GROUP BY), filters on groups (HAVING), and aggregation functions (COUNT, SUM, AVG, MAX, MIN).
