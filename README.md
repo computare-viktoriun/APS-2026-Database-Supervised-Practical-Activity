@@ -64,6 +64,10 @@ Implementar um projeto completo de banco de dados, de acordo com o tema sorteado
 
 # 📃 **ACTIVITY DESCRIPTION:**
 
+TOPIC: Space Debris Tracking (Space Junk): Orbital safety control. Active satellites, debris fragments (size, speed, orbit), responsible companies/countries, mission alerts, and cleanup missions.
+
+---
+
 Implement a complete database project, according to the assigned theme, with the following requirements:
 
 **1. Conceptual Modeling:** Analyze the theme and define the initial business rules. This is the abstraction phase, focused on understanding "what" the system does.
